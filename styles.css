@@ -342,3 +342,21 @@ html {
   }
 }
 
+.footer-legal {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer-legal a {
+  font-size: 11px;
+  color: #99958e;
+  text-decoration: none;
+  letter-spacing: 0.08em;
+  transition: color 0.3s ease;
+}
+
+.footer-legal a:hover {
+  color: #2f3e34;
+  text-decoration: underline;
+}
+
