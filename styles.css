@@ -80,3 +80,13 @@
   font-weight: 400;
   color: inherit;
 }
+.header-cta .icon-arrow {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+  flex-shrink: 0;
+  background: none;
+  box-shadow: none;
+}
