@@ -360,3 +360,26 @@ html {
   text-decoration: underline;
 }
 
+.footer-credits {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: #99958e;
+}
+
+.footer-credits p {
+  margin: 5px 0;
+}
+
+.footer-credits a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-credits a:hover {
+  color: #2f3e34;
+  text-decoration: underline;
+}
+
