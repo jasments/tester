@@ -51,5 +51,18 @@
   max-width: 100%;
   object-fit: contain;
 }
+/* Keep decorative symbols as text, not emojis */
 
+.small-gold-star,
+.reassurance-number {
+  font-family: Georgia, "Times New Roman", serif;
+  font-variant-emoji: text;
+  font-style: normal;
+}
+
+/* Prevent decorative stars appearing as emoji badges */
+.small-gold-star {
+  background: transparent;
+  box-shadow: none;
+}
 
