@@ -26,3 +26,14 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:50;op
 @media(max-width:800px){.case-main{grid-template-columns:1fr .8fr;gap:4%}.case-art{height:270px}.case-main h3{font-size:clamp(53px,8vw,80px)}}
 @media(max-width:620px){.mini-coastal-content strong{font-size:clamp(46px,12vw,73px)}.mini-portfolio-content strong{font-size:clamp(50px,11vw,78px)}.mini-coffee-content strong{font-size:clamp(66px,16vw,95px)}.case-studies{margin-top:45px}.case-main{display:flex;flex-direction:column;align-items:stretch}.case-main h3{font-size:70px}.case-art{height:220px;order:-1;margin-bottom:25px}.case-facts{gap:15px;margin:24px 0}.case-summary{font-size:14px}.contact-section h2{font-size:clamp(63px,12.5vw,85px)}.contact-mark{font-size:48px}.contact-foot{margin-top:50px}}
 @media(prefers-reduced-motion:reduce){.hero-art .art-arc-one,.hero-art .art-arc-two,.hero-art .art-rust,.hero-art .art-tan,.lab-abstract .abstract-ring,.lab-abstract .abstract-dot{animation:none!important}}
+
+.case-concept {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.3s ease;
+}
+
+.case-concept:hover {
+  opacity: 0.6;
+}
