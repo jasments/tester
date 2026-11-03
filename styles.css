@@ -303,3 +303,32 @@
   }
 }
 
+/* FOOTER LOGO - FIX PROPORTIONS */
+
+.site-footer .footer-brand {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  height: auto !important;
+  align-self: start;
+  justify-self: start;
+}
+
+.site-footer .footer-brand img {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  aspect-ratio: 507 / 201;
+  object-fit: contain;
+  object-position: left center;
+}
+
+/* iPhone and iPad Mini */
+@media (max-width: 1024px) {
+  .site-footer .footer-brand {
+    width: 250px;
+    max-width: 100%;
+  }
+}
+
