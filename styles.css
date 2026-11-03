@@ -90,3 +90,53 @@
   background: none;
   box-shadow: none;
 }
+
+/* =================================
+   CLEAN SVG ICONS - NO EMOJIS
+   ================================= */
+
+.icon-arrow {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.icon-star {
+  width: 22px;
+  height: 22px;
+  display: block;
+  color: #b59b70;
+}
+
+/* Remove any unwanted emoji badge styling */
+.small-gold-star {
+  background: transparent !important;
+  box-shadow: none !important;
+  font-size: 0;
+}
+
+/* Header arrow */
+.header-cta .icon-arrow {
+  width: 17px;
+  height: 17px;
+  margin-left: 6px;
+}
+
+/* Services arrows */
+.service-arrow .icon-arrow {
+  width: 24px;
+  height: 24px;
+}
+
+/* General text links */
+.text-link .icon-arrow {
+  width: 17px;
+  height: 17px;
+  margin-left: 6px;
+}
+
+
+
+
