@@ -280,3 +280,26 @@
     min-width: 122px;
   }
 }
+
+/* Fix stretched footer logo */
+.footer-brand {
+  display: block;
+  width: 230px;
+  max-width: 100%;
+}
+
+.footer-brand img {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  max-height: none;
+  object-fit: contain;
+}
+
+/* Mobile and iPad */
+@media (max-width: 800px) {
+  .footer-brand {
+    width: 190px;
+  }
+}
+
