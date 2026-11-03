@@ -66,3 +66,17 @@
   box-shadow: none;
 }
 
+/* Force text-style arrows on iPhone */
+.service-arrow,
+.text-arrow {
+  font-family: Georgia, "Times New Roman", serif;
+  font-variant-emoji: text;
+  font-style: normal;
+}
+.text-arrow {
+  font-family: Georgia, "Times New Roman", serif;
+  font-variant-emoji: text;
+  font-style: normal;
+  font-weight: 400;
+  color: inherit;
+}
